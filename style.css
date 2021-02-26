@@ -1,0 +1,118 @@
+/* font-family: 'Josefin Slab', serif;
+font-family: 'Niconne', cursive; */
+
+body {
+  background-color: #f6f5f5;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 95vh;
+  background-image: url(./pics/stadiumback.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(35deg, #fff, #5f6a6a);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+  font-family: josefin sans;
+  font-weight: bold;
+}
+
+nav ul li a {
+  margin: 30px;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 700;
+}
+nav ul li:hover {
+  color: #f4d03f;
+}
+
+.logo {
+  font-family: "Niconne", cursive;
+  color: #000000;
+  font-size: 60px;
+}
+.active {
+  font-weight: bold;
+  color: #2d2a2a;
+}
+
+.text-container p:nth-child(1) {
+  font-family: myriad pro regular;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.text-container p {
+  line-height: 0px;
+  margin: 45px 0px 25px;
+}
+
+.text-container {
+  position: absolute;
+  left: 13%;
+  top: 42%;
+  transform: translate(25%, -22%);
+  padding: 20px 50px;
+  filter: opacity(95%);
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.model {
+  height: 560px;
+  position: absolute;
+  bottom: 0px;
+  left: 80%;
+  transform: translateX(-70%);
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: e6e3e3;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  display: flex;
+}
